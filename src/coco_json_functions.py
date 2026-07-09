@@ -37,6 +37,7 @@ def mask_to_coco_polygons(binary_mask, epsilon=0.0):
     return segmentation, bbox, area
 
 
+
 def export_to_coco(instances, file_path, categories, image_id = 0, width = 2048, 
                 height = 1536, epsilon=2.0, output_path = "outputs/segmentation_outputs_coco.json"):
     """
@@ -77,6 +78,8 @@ def export_to_coco(instances, file_path, categories, image_id = 0, width = 2048,
             "iscrowd": 0,
         })
         ann_id += 1
+
+    
 
     with open(output_path, "w") as f:
         json.dump(coco, f, indent=2)

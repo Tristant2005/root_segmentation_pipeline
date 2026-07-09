@@ -4,7 +4,7 @@ from src.helper_functions.image_functions import *
 import cv2
 import numpy as np
 from skan import Skeleton, summarize
-from skimage.morphology import skeletonize
+from skimage.morphology import skeletonize, binary_dilation, disk
 
 def build_skeleton(full_mask):
     # Apply gaussian blur to denoise image
@@ -123,8 +123,13 @@ def skeletonization_pipeline(mask, dilation_radius=6, verbose=False):
     root = return_largest_area(root)
 
     if verbose:
+        dilated_skeleton = binary_dilation(skeleton, footprint=disk(2))
+        overlay = np.zeros((*dilated_skeleton.shape, 4))
+        overlay[dilated_skeleton] = [1, 1, 1, 1]
+
         show_image(skeleton, title="Skeletal Structure")
-        draw_axis_line((skeleton * 255).astype(np.uint8), coords, root_angle, is_gray=True)
+        show_image(dilated_skeleton, title="Dilated Skeletal Structure")
+        draw_axis_line((dilated_skeleton * 255).astype(np.uint8), coords, root_angle, is_gray=True)
 
         greys = ["grey", "grey"]
 

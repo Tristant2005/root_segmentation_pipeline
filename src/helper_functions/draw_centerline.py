@@ -41,7 +41,7 @@ def draw_axis_line(img, coords, root_angle, is_gray=False):
     else:
         viz = img.copy()
 
-    cv2.line(viz, (centre_x - dx, centre_y - dy), (centre_x + dx, centre_y + dy), (255, 0, 0), thickness=2)
+    cv2.line(viz, (centre_x - dx, centre_y - dy), (centre_x + dx, centre_y + dy), (255, 0, 0), thickness=3)
 
     plt.figure(figsize=(14, 6))
     plt.imshow(viz)

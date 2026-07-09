@@ -217,7 +217,7 @@ def fuse_all_instances(classical_masks: list[np.ndarray], model_dict: list[np.nd
 
 
 # Function to run through all fusion logic
-def fusion_of_masks(classic_instances: list[np.ndarray], model_instances: list[dict]) -> list[dict]:
+def fusion_of_masks(classic_instances: list[np.ndarray], model_instances: list[dict], verbose= False) -> list[dict]:
     # First turn the model instances into the right data format
     model_dict = load_model_instances(model_instances)
 
@@ -226,6 +226,49 @@ def fusion_of_masks(classic_instances: list[np.ndarray], model_instances: list[d
     
     # fuse instances together
     final_instances = fuse_all_instances(classic_instances, model_dict, results)
+
+    # visualize the pairing
+    if verbose:
+        for index, tuple_pair in enumerate(results["matched_pairs"]):
+
+            classic_instance_idx = int(tuple_pair[0])
+            model_instance_idx = int(tuple_pair[1])
+
+            # print(classic_instance_idx, model_instance_idx)
+
+
+            classic_mask = classic_instances[classic_instance_idx]
+            model_mask = model_dict["masks"][model_instance_idx]
+
+            # Convert bool array to uint8 image
+            classic_mask_image = (classic_mask * 255).astype(np.uint8)
+            model_mask_image = (model_mask * 255).astype(np.uint8)
+
+            union = cv2.add(model_mask_image, classic_mask_image)
+
+            # Display
+            fig, axes = plt.subplots(1, 3, figsize=(13, 10))
+
+
+            axes[0].imshow(classic_mask_image, cmap="gray")
+            axes[0].axis("off")
+            axes[0].set_title(f"Classic Instance {classic_instance_idx}")
+
+            axes[1].imshow(model_mask_image, cmap="gray")
+            axes[1].axis("off")
+            axes[1].set_title(f"Model Instance {model_instance_idx}")
+
+            axes[2].imshow(union, cmap="gray")
+            axes[2].axis("off")
+            axes[2].set_title("Union of Instances")
+
+
+            plt.show()
+
+
+            if index == 3:
+                break
+
 
     # This is a list of dicts containing all segmented instances
     return final_instances
