@@ -116,44 +116,40 @@ def per_instance_evaluation(pred_anns, gt_anns, height, width,
     return results
 
 
-
-
-def compare_coco(truth_path, predicted_path):
-    image_id = 0
-
+def compare_coco(truth_path, predicted_path, iou_threshold=0.35):
     truth = load_coco(truth_path)
     predicted = load_coco(predicted_path)
 
-    image_info = next(img for img in truth["images"] if img["id"] == image_id) # 0 is the image id
-    height, width = image_info["height"], image_info["width"]
+    # get every image_id present in the ground truth file
+    image_ids = [img["id"] for img in truth["images"]]
 
-    predicted_segments = [a for a in predicted["annotations"] if a["image_id"] == image_id and a["category_id"] != 0]
-    true_segments = [a for a in truth["annotations"] if a["image_id"] == image_id and a["category_id"] != 0]
+    for image_id in image_ids:
+        image_info = next(img for img in truth["images"] if img["id"] == image_id)
+        height, width = image_info["height"], image_info["width"]
 
-    npred = len(predicted_segments)
-    ntrue = len(true_segments)
+        predicted_segments = [a for a in predicted["annotations"] if a["image_id"] == image_id and a["category_id"] != 0]
+        true_segments = [a for a in truth["annotations"] if a["image_id"] == image_id and a["category_id"] != 0]
 
-    matches = per_instance_evaluation(predicted_segments, true_segments, height, width, iou_threshold=0.35)
+        matches = per_instance_evaluation(predicted_segments, true_segments, height, width, iou_threshold=iou_threshold)
 
-    matched_gt_ids = {m["matched_gt_id"] for m in matches if m["matched_gt_id"] is not None}
+        matched_gt_ids = {m["matched_gt_id"] for m in matches if m["matched_gt_id"] is not None}
+        gt_by_id = {a["id"]: a for a in true_segments}
+        pred_by_id = {a["id"]: a for a in predicted_segments}
 
-    gt_by_id = {a["id"]: a for a in true_segments}
-    pred_by_id = {a["id"]: a for a in predicted_segments}
+        false_negatives = [gt for gt in true_segments if gt["id"] not in matched_gt_ids]
+        FN = len(false_negatives)
 
+        true_positives = [gt_by_id[m["matched_gt_id"]] for m in matches if m["matched_gt_id"] is not None]
+        TP = len(true_positives)
 
-    false_negatives = [gt for gt in true_segments if gt["id"] not in matched_gt_ids]
-    FN = len(false_negatives)
+        false_positives = [pred_by_id[m["pred_id"]] for m in matches if m["matched_gt_id"] is None]
+        FP = len(false_positives)
 
+        precision = TP / (TP + FP) if (TP + FP) > 0 else 0.0
+        recall = TP / (TP + FN) if (TP + FN) > 0 else 0.0
+        f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
 
-    true_positives = [gt_by_id[m["matched_gt_id"]] for m in matches if m["matched_gt_id"] is not None]
-    TP = len(true_positives)
-
-    false_positives = [pred_by_id[m["pred_id"]] for m in matches if m["matched_gt_id"] is None]
-    FP = len(false_positives)
-
-    precision = TP / (TP + FP) if (TP + FP) > 0 else 0.0
-    recall = TP / (TP + FN) if (TP + FN) > 0 else 0.0
-    f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
-
-    print(f"TP={TP}  FP={FP}  FN={FN}")
-    print(f"Precision={precision:.4f}  Recall={recall:.4f}  F1={f1:.4f}")
+        print("Image ID:", image_id)
+        print(f"TP={TP}  FP={FP}  FN={FN}")
+        print(f"Precision={precision:.4f}  Recall={recall:.4f}  F1={f1:.4f}")
+        print()

@@ -128,3 +128,89 @@ def convex_segmentation(img_path, verbose=False, show_overlay=True, save=True, d
 
     # return masks
     return root, hairs
+
+
+
+
+
+
+
+
+
+def erode_and_dilate(root_mask, hair_skeleton, erosion_radius=10, dilation_radius=2):
+    # Create circular structuring element
+    erosion_kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (erosion_radius * 2 + 1, erosion_radius * 2 + 1))
+    dilation_kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (dilation_radius * 2 + 1, dilation_radius * 2 + 1))
+
+    # Apply erosion
+    root_cylinder = cv2.erode(root_mask, erosion_kernel, iterations=1)
+    hairs = cv2.subtract(hair_skeleton, root_cylinder)
+
+    removed = cv2.bitwise_and(hair_skeleton, root_cylinder)
+
+
+    hairs = cv2.dilate(hairs, dilation_kernel, iterations=1)
+
+    return root_cylinder, hairs
+
+
+
+
+
+def binary_fill_convex_segmentation(img_path, verbose=False, show_overlay=True, save=True, denoise_method='bilateral', bg_blur_radius=80):
+
+    # Load image
+    image = cv2.imread(img_path)
+    grey = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    original_otsu_binary_mask = threshold_otsu(grey, True)
+    preprocessed = preprocess_pipeline(image, correct_bg=True, denoise_method=denoise_method, bg_blur_radius=bg_blur_radius, enhance=True)
+    procesed_otsu_binary_mask = threshold_otsu(preprocessed, True)
+
+    otsu_binary_mask = cv2.add(original_otsu_binary_mask, procesed_otsu_binary_mask)
+    root_mask_filled = return_largest_area(fill_mask(otsu_binary_mask))
+
+
+
+    skeleton, skeleton_skan, branch_data = build_skeleton(root_mask_filled)
+    centerline_branch_indices = set()
+    # Run
+    centerline_path, centerline_indices = find_centerline_path(skeleton_skan, branch_data)
+
+    # Split into two dictionaries
+    root_branches = {}
+    hair_branches = {}
+
+    for idx, branch in branch_data.iterrows():
+        if idx in centerline_indices:
+            root_branches[idx] = branch
+        else:
+            hair_branches[idx] = branch
+
+    hair_skeleton = reconstruct_skeleton(skeleton_skan, hair_branches.keys(), skeleton.shape)
+    root, hairs = erode_and_dilate(root_mask_filled, hair_skeleton)
+
+    # inside_hairs = get_inside_roots(img_path, root, min_sigma=5, max_sigma=8, threshold=0.09, overlap=0.3)
+    # hair_total = cv2.add(inside_hairs, hairs)
+    root, hairs = cut_leftmost_hairs(hairs, fraction=1/3, root=root)
+
+    if verbose or show_overlay:
+        # Show an overlay between the original image and predicted roots and hairs
+        show_overlay_with_root_and_hairs(image, root, hairs)
+
+
+
+    if verbose:
+        fig, axes = plt.subplots(1, 2, figsize=(10, 6))
+
+        axes[0].imshow(original_otsu_binary_mask, cmap="grey")
+        axes[0].set_title("Original Binary Mask")
+        axes[0].axis("off")
+
+        axes[1].imshow(procesed_otsu_binary_mask, cmap="grey")
+        axes[1].set_title("Preprocessed Binary Mask")
+        axes[1].axis("off")
+        show_image(root_mask_filled, grey=True)
+        show_image(skeleton)
+
+    return root, hairs

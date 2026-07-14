@@ -90,22 +90,23 @@ def detectron2_mask(predictor, img_path):
     return merged_mask
 
 # Predict instance based masks
-def detectron2_instances(predictor, img_path):
+def detectron2_instances(predictor, img_path, verbose=False):
     image = cv2.imread(img_path)
 
     # Run prediction model (Detectron2)
     outputs = predictor(image)
     instances = outputs["instances"].to("cpu")
 
-    # Use custom metadata in Visualizer
-    v = Visualizer(image[:, :, ::-1], metadata=MetadataCatalog.get("custom_root_v2"), scale=1.0)
-    out = v.draw_instance_predictions(instances)
-    result_image = out.get_image()[:, :, ::-1]
+    if verbose:
+        # Use custom metadata in Visualizer
+        v = Visualizer(image[:, :, ::-1], metadata=MetadataCatalog.get("custom_root_v2"), scale=1.0)
+        out = v.draw_instance_predictions(instances)
+        result_image = out.get_image()[:, :, ::-1]
 
-    plt.figure(figsize=(10, 8))
-    plt.imshow(result_image)
-    plt.axis("off")
-    plt.title("Detectron2 Result")
-    plt.show()
+        plt.figure(figsize=(10, 8))
+        plt.imshow(result_image)
+        plt.axis("off")
+        plt.title("Detectron2 Result")
+        plt.show()
 
     return instances
