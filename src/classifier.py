@@ -48,8 +48,8 @@ class Category_Classifier():
         self.root_mask = root_mask
         self.img_path = img_path
 
-        self.bump_embedded_classifier = joblib.load(bump_embedded_classifier_path)
-        self.bg_regular_classifier = joblib.load(bg_regular_classifier_path)  
+        self.bump_embedded_classifier = bump_embedded_classifier_path
+        self.bg_regular_classifier = bg_regular_classifier_path
 
 
     
@@ -209,15 +209,24 @@ class Category_Classifier():
 
 
 
-def reclassify_instances(instances, root, img_path,
-        bmp_cls="../classification/classifiers/bumps_embedded_classifier.pkl",
-        bg_cls="../classification/classifiers/bg_regular_classifier.pkl"):
+def load_classifiers(bmp_cls="../classification/classifiers/bumps_embedded_classifier.pkl", 
+                     bg_cls="../classification/classifiers/bg_regular_classifier.pkl"):
+    
+    bump_embedded_classifier = joblib.load(bmp_cls)
+    bg_regular_classifier = joblib.load(bg_cls)  
+
+    return bump_embedded_classifier, bg_regular_classifier
+
+
+def classify_instances(instances, root, img_path, classifier):
 
     hair_masks = [item["mask"] for item in instances]
     hair_cases = [item["case"] for item in instances]
 
-    # Make the classifier class
-    classifier = Category_Classifier(hair_masks, hair_cases, root, img_path, bmp_cls, bg_cls)
+    classifier.img_path = img_path
+    classifier.hair_masks = hair_masks
+    classifier.hair_cases = hair_cases
+    classifier.root_mask = root
 
     # Run the classifier class
     catagory_list = classifier.detect_classes()
