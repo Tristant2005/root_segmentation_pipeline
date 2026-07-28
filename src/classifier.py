@@ -219,7 +219,6 @@ def load_classifiers(bmp_cls="../classification/classifiers/bumps_embedded_class
 
 
 def classify_instances(instances, root, img_path, classifier):
-
     hair_masks = [item["mask"] for item in instances]
     hair_cases = [item["case"] for item in instances]
 

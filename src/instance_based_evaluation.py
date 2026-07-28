@@ -116,12 +116,25 @@ def per_instance_evaluation(pred_anns, gt_anns, height, width,
     return results
 
 
+
+def average(the_list):
+    sum = 0
+    for item in the_list:
+        sum += item
+
+    return sum / len(the_list)
+
+
 def compare_coco(truth_path, predicted_path, iou_threshold=0.35):
     truth = load_coco(truth_path)
     predicted = load_coco(predicted_path)
 
     # get every image_id present in the ground truth file
     image_ids = [img["id"] for img in truth["images"]]
+
+    percs = []
+    recs = []
+    f1s = []
 
     for image_id in image_ids:
         image_info = next(img for img in truth["images"] if img["id"] == image_id)
@@ -153,3 +166,13 @@ def compare_coco(truth_path, predicted_path, iou_threshold=0.35):
         print(f"TP={TP}  FP={FP}  FN={FN}")
         print(f"Precision={precision:.4f}  Recall={recall:.4f}  F1={f1:.4f}")
         print()
+
+     
+        percs.append(precision)
+        recs.append(recall)
+        f1s.append(f1)
+
+
+    print("AVG Precision", average(percs))
+    print("AVG REcall", average(recs))
+    print("AVG F1", average(f1s))

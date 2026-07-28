@@ -4,7 +4,6 @@ from detectron2.config import get_cfg
 from detectron2 import model_zoo
 from detectron2.data import MetadataCatalog
 from detectron2.utils.visualizer import Visualizer
-from detectron2.data import MetadataCatalog
 
 # Imports
 import os, json, cv2, random, re
@@ -36,21 +35,24 @@ FAKE_CLASSES = [
     "dirt"    
 ]
 
-# Given a path to a model pth file, load it in and return 
-def start_prediction_machine(path_to_model="models/binary_segmentation_model.pth", instance_based=False):
 
+# Given a path to a model pth file, load it in and return 
+def start_prediction_machine(path_to_model="models/binary_segmentation_model.pth", multi_class=False, type=None):
+    
     # Setup configuration files 
     cfg = get_cfg()
     cfg.merge_from_file(model_zoo.get_config_file("COCO-InstanceSegmentation/mask_rcnn_R_101_FPN_3x.yaml"))
+    cfg.MODEL.WEIGHTS = path_to_model
 
     # Mark destinction
-    if instance_based:
-        custom_metadata = MetadataCatalog.get("custom_root_v2")
-        MetadataCatalog.get("custom_root_v2").set(thing_classes=FAKE_CLASSES)
+    if multi_class:
+        metadata = MetadataCatalog.get("custom_root_v2").set(thing_classes=FAKE_CLASSES)
+        cfg.MODEL.ROI_HEADS.NUM_CLASSES = 8
 
-    # Custom configuration
-    cfg.MODEL.WEIGHTS = path_to_model
-    cfg.MODEL.ROI_HEADS.NUM_CLASSES = 8
+    else:
+        metadata = MetadataCatalog.get("custom_root_v2").set(thing_classes=["root_hair"])
+        cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1 
+
     cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5
     cfg.MODEL.ROI_HEADS.BATCH_SIZE_PER_IMAGE = 128
     cfg.MODEL.MASK_ON = True
@@ -58,6 +60,9 @@ def start_prediction_machine(path_to_model="models/binary_segmentation_model.pth
     # Put on cpu
     cfg.MODEL.DEVICE = "cpu"
     predictor = DefaultPredictor(cfg)
+
+    with open("run_config.yaml", "w") as f:
+        f.write(cfg.dump())
 
     return predictor
 
@@ -88,6 +93,7 @@ def detectron2_mask(predictor, img_path):
 
     # merged_mask = cv2.cvtColor(merged_mask, cv2.COLOR_BGR2GRAY)
     return merged_mask
+
 
 # Predict instance based masks
 def detectron2_instances(predictor, img_path, verbose=False):

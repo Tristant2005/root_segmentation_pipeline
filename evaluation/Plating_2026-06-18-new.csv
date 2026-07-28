@@ -1,0 +1,759 @@
+Date,Nitrate concentration,Plate,Mode,Ecotype,Seed number for the specific concentration,Annotation,Annotator,Seed number on the plate ,"Image number
+on the plate ",Stitched,reason for unusability of images ,Comment,Split_1,Split_2,Split_3
+20240918,N4,1,L,Pu2-23,_001,yes,Roberto Zarazua,000001,000001,no_need,,,testing,testing,testing
+20240918,N4,1,L,Pu2-23,_002,yes,Roberto Zarazua,000002,000002,no_need,,,testing,testing,testing
+20240918,N4,1,L,Pu2-23,_003,yes,Roberto Zarazua,000003,000003,no_need,,,testing,testing,testing
+20240918,N4,1,L,Pu2-23,x,yes,Roberto Zarazua,000004,000004,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20240918,N4,1,L,Pu2-23,_004,yes,Roberto Zarazua,000005,000005,no_need,,,testing,testing,training
+20240918,N4,1,L,Pu2-23,_005,yes,Roberto Zarazua,000006,000006,no_need,,,testing,testing,training
+20240918,N4,1,L,Ws-0,x,yes,Roberto Zarazua,000007,000007,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20240918,N4,1,L,Ws-0,_001,yes,Roberto Zarazua,000008,000008,no_need,,,testing,testing,testing
+20240918,N4,1,L,Ws-0,_002,yes,Roberto Zarazua,000009,000009,no_need,,,testing,testing,testing
+20240918,N4,1,L,Ws-0,_003,yes,Roberto Zarazua,000010,000010,no_need,,,testing,testing,testing
+20240918,N4,1,L,Ws-0,x,yes,Roberto Zarazua,000011,000011,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20240918,N4,1,L,Ws-0,x,yes,Roberto Zarazua,000012,000012,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20240918,N4,1,L,Shahdara,_001,yes,Roberto Zarazua,000013,000013,no_need,,,testing,testing,testing
+20240918,N4,1,L,Shahdara,_002,yes,Roberto Zarazua,000014,000014,no_need,,,testing,testing,testing
+20240918,N4,1,L,Shahdara,_003,yes,Roberto Zarazua,000015,000015,no_need,,,testing,testing,testing
+20240918,N4,1,L,Shahdara,_004,yes,Roberto Zarazua,000016,000016,no_need,,,testing,testing,training
+20240918,N4,1,L,Shahdara,_005,yes,Roberto Zarazua,000017,000017,no_need,,,testing,testing,training
+20240918,N4,1,L,Shahdara,_006,yes,Roberto Zarazua,000018,000018,no_need,,,testing,testing,training
+20240918,N16,2,L,Pu2-23,_001,yes,Roberto Zarazua,000001,000001,no_need,,,ignore,training,training
+20240918,N16,2,L,Pu2-23,_002,yes,Roberto Zarazua,000002,000002,no_need,,,ignore,training,training
+20240918,N16,2,L,Pu2-23,_003,yes,Roberto Zarazua,000003,000003,no_need,,,ignore,training,training
+20240918,N16,2,L,Pu2-23,x,yes,Roberto Zarazua,000004,000004,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20240918,N16,2,L,Pu2-23,x,yes,Roberto Zarazua,000005,000005,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20240918,N16,2,L,Pu2-23,x,yes,Roberto Zarazua,000006,000006,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20240918,N16,2,L,Ws-0,x,yes,Roberto Zarazua,000007,000007,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20240918,N16,2,L,Ws-0,_001,yes,Roberto Zarazua,000008,000008,no_need,,,ignore,training,training
+20240918,N16,2,L,Ws-0,_002,yes,Roberto Zarazua,000009,000009,no_need,,,ignore,training,training
+20240918,N16,2,L,Ws-0,_003,yes,Roberto Zarazua,000010,000010,no_need,,,ignore,training,training
+20240918,N16,2,L,Ws-0,_004,yes,Roberto Zarazua,000011,000011,no_need,,,ignore,training,training
+20240918,N16,2,L,Ws-0,_005,yes,Roberto Zarazua,000012,000012,no_need,,,ignore,training,training
+20240918,N16,2,L,Shahdara,_001,yes,Roberto Zarazua,000013,000013,no_need,,,ignore,training,training
+20240918,N16,2,L,Shahdara,_002,yes,Roberto Zarazua,000014,000014,no_need,,,ignore,training,training
+20240918,N16,2,L,Shahdara,_003,yes,Roberto Zarazua,000015,000015,no_need,,,ignore,training,training
+20240918,N16,2,L,Shahdara,_004,yes,Roberto Zarazua,000016,000016,no_need,,,ignore,training,training
+20240918,N16,2,L,Shahdara,_005,yes,Roberto Zarazua,000017,000017,no_need,,,ignore,training,training
+20240918,N16,2,L,Shahdara,_006,yes,Roberto Zarazua,000018,000018,no_need,,,ignore,training,training
+20240918,N32,3,L,Pu2-23,_001,yes,Roberto Zarazua,000001,000001,no_need,,,ignore,training,training
+20240918,N32,3,L,Pu2-23,_002,yes,Roberto Zarazua,000002,000002,no_need,,,ignore,training,training
+20240918,N32,3,L,Pu2-23,_003,yes,Roberto Zarazua,000003,000003,no_need,,,ignore,training,training
+20240918,N32,3,L,Pu2-23,_004,yes,Roberto Zarazua,000004,000004,no_need,,,ignore,training,training
+20240918,N32,3,L,Pu2-23,_005,yes,Roberto Zarazua,000005,000005,no_need,,,ignore,training,training
+20240918,N32,3,L,Pu2-23,_006,yes,Roberto Zarazua,000006,000006,no_need,,,ignore,training,training
+20240918,N32,3,L,Ws-0,x,yes,Roberto Zarazua,000007,000007,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20240918,N32,3,L,Ws-0,_001,yes,Roberto Zarazua,000008,000008,no_need,,,ignore,training,training
+20240918,N32,3,L,Ws-0,_002,yes,Roberto Zarazua,000009,000009,no_need,,,ignore,training,training
+20240918,N32,3,L,Ws-0,_003,yes,Roberto Zarazua,000010,000010,no_need,,,ignore,training,training
+20240918,N32,3,L,Ws-0,_004,yes,Roberto Zarazua,000011,000011,no_need,,,ignore,training,training
+20240918,N32,3,L,Ws-0,_005,yes,Roberto Zarazua,000012,000012,no_need,,,ignore,training,training
+20240918,N32,3,L,Shahdara,_001,yes,Roberto Zarazua,000013,000013,no_need,,,ignore,training,training
+20240918,N32,3,L,Shahdara,_002,yes,Roberto Zarazua,000014,000014,no_need,,,ignore,training,training
+20240918,N32,3,L,Shahdara,_003,yes,Roberto Zarazua,000015,000015,no_need,,,ignore,training,training
+20240918,N32,3,L,Shahdara,_004,yes,Roberto Zarazua,000016,000016,no_need,,,ignore,training,training
+20240918,N32,3,L,Shahdara,_005,yes,Roberto Zarazua,000017,000017,no_need,,,ignore,training,training
+20240918,N32,3,L,Shahdara,_006,yes,Roberto Zarazua,000018,000018,no_need,,,ignore,training,training
+20240918,N64,4,L,Pu2-23,_001,yes,Roberto Zarazua,000001,000001,no_need,,,ignore,training,training
+20240918,N4,6,L,Pu2-23,_006,yes,Roberto Zarazua,000001,000001,no_need,,,testing,testing,training
+20240918,N4,6,L,Pu2-23,x,yes,Roberto Zarazua,000002,000002,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20240918,N4,6,L,Pu2-23,_007,yes,Roberto Zarazua,000003,000003,no_need,,,testing,testing,training
+20240918,N4,6,L,Pu2-23,_008,yes,Jonas Siegemund,000004,000004,no_need,,,testing,testing,training
+20240918,N4,6,L,Pu2-23,_009,yes,Jonas Siegemund,000005,000005,no_need,,,testing,testing,training
+20240918,N4,6,L,Pu2-23,x,yes,Jonas Siegemund,000006,000006,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20240918,N4,6,L,Shahdara,_007,yes,Jonas Siegemund,000007,000007,no_need,,,testing,testing,training
+20240918,N4,6,L,Shahdara,_008,yes,Jonas Siegemund,000008,000008,no_need,,,testing,testing,training
+20240918,N4,6,L,Shahdara,_009,yes,Jonas Siegemund,000009,000009,no_need,,,testing,testing,training
+20240918,N4,6,L,Shahdara,_010,yes,Jonas Siegemund,000010,000010,no_need,,,testing,testing,training
+20240918,N4,6,L,Shahdara,x,yes,Jonas Siegemund,000011,000011,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20240918,N4,6,L,Shahdara,_011,yes,Jonas Siegemund,000012,000012,no_need,,,ignore,training,training
+20240918,N4,6,L,Ws-0,_004,yes,Jonas Siegemund,000013,000013,no_need,,,testing,testing,training
+20240918,N4,6,L,Ws-0,_005,yes,Jonas Siegemund,000014,000014,no_need,,,testing,testing,training
+20240918,N4,6,L,Ws-0,_006,yes,Jonas Siegemund,000015,000015,no_need,,,testing,testing,training
+20240918,N4,6,L,Ws-0,_007,yes,Jonas Siegemund,000016,000016,no_need,,,testing,testing,training
+20240918,N4,6,L,Ws-0,x,yes,Jonas Siegemund,000017,000017,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20240918,N4,6,L,Ws-0,x,yes,Jonas Siegemund,000018,000018,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20240918,N4,11,L,Ws-0,_008,yes,Jonas Siegemund,000001,000001,no_need,,,testing,testing,training
+20240918,N4,11,L,Ws-0,_009,yes,Jonas Siegemund,000002,000002,no_need,,,testing,testing,training
+20240918,N4,11,L,Ws-0,_010,yes,Jonas Siegemund,000003,000003,no_need,,,testing,testing,training
+20240918,N4,11,L,Pu2-23,_010,yes,Jonas Siegemund,000013,000013,no_need,,,testing,testing,training
+20240925,N4,1,L,St-0,x,yes,Jonas Siegemund,000001,000001,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20240925,N4,1,L,St-0,_001,yes,Jonas Siegemund,000002,000002,no_need,,,testing,testing,testing
+20240925,N4,1,L,St-0,_002,yes,Jonas Siegemund,000003,000003,no_need,,,testing,testing,testing
+20240925,N4,1,L,St-0,_003,yes,Jonas Siegemund,000004,000004,no_need,,,testing,testing,testing
+20240925,N4,1,L,St-0,_004,yes,Jonas Siegemund,000005,000005,no_need,,,testing,testing,training
+20240925,N4,1,L,St-0,_005,yes,Jonas Siegemund,000006,000006,no_need,,,testing,testing,training
+20240925,N4,1,L,Uk-1,_001,yes,Jonas Siegemund,000007,000007,no_need,,,testing,testing,testing
+20240925,N4,1,L,Uk-1,_002,yes,Jonas Siegemund,000008,000008,no_need,,,testing,testing,testing
+20240925,N4,1,L,Uk-1,_003,yes,Jonas Siegemund,000009,000009,no_need,,,testing,testing,testing
+20240925,N4,1,L,Uk-1,_004,yes,Jonas Siegemund,000010,000010,no_need,,,testing,testing,training
+20240925,N4,1,L,Uk-1,_005,yes,Jonas Siegemund,000011,000011,no_need,,,testing,testing,training
+20240925,N4,1,L,Uk-1,_006,yes,Jonas Siegemund,000012,000012,no_need,,,testing,testing,training
+20240925,N4,1,L,Oy-0,_001,yes,Jonas Siegemund,000013,000013,no_need,,,testing,testing,testing
+20240925,N4,1,L,Oy-0,_002,yes,Jonas Siegemund,000014,000014,no_need,,,testing,testing,testing
+20240925,N4,1,L,Oy-0,_003,yes,Jonas Siegemund,000015,000015,no_need,,,testing,testing,testing
+20240925,N4,1,L,Oy-0,x,yes,Jonas Siegemund,000016,000016,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20240925,N4,1,L,Oy-0,_004,yes,Jonas Siegemund,000017,000017,no_need,,,testing,testing,training
+20240925,N4,1,L,Oy-0,_005,yes,Jonas Siegemund,000018,000018,no_need,,,testing,testing,training
+20240925,N4,6,L,Oy-0,x,yes,Jonas Siegemund,000001,000001,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20240925,N4,6,L,Oy-0,_006,yes,Jonas Siegemund,000002,000002,no_need,,,testing,testing,training
+20240925,N4,6,L,Oy-0,x,yes,Jonas Siegemund,000003,000003,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20240925,N4,6,L,Oy-0,_007,yes,Jonas Siegemund,000004,000004,no_need,,,testing,testing,training
+20240925,N4,6,L,Oy-0,x,yes,Boyana Kozhuharova,000005,000005,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20240925,N4,6,L,Oy-0,x,yes,Jonas Siegemund,000006,000006,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20240925,N4,6,L,St-0,x,yes,Jonas Siegemund,000007,000007,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20240925,N4,6,L,St-0,x,yes,Jonas Siegemund,000008,000008,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20240925,N4,6,L,St-0,_006,yes,Jonas Siegemund,000009,000009,no_need,,,testing,testing,training
+20240925,N4,6,L,St-0,_007,yes,Jonas Siegemund,000010,000010,no_need,,,testing,testing,training
+20240925,N4,6,L,St-0,_008,yes,Jonas Siegemund,000011,000011,no_need,,,testing,testing,training
+20240925,N4,6,L,St-0,_009,yes,Jonas Siegemund,000012,000012,no_need,,,testing,testing,training
+20240925,N4,6,L,Uk-1,_007,yes,Jonas Siegemund,000013,000013,no_need,,,testing,testing,training
+20240925,N4,6,L,Uk-1,_008,yes,Jonas Siegemund,000014,000014,no_need,,,testing,testing,training
+20240925,N4,6,L,Uk-1,_009,yes,Jonas Siegemund,000015,000015,no_need,,,testing,testing,training
+20240925,N4,6,L,Uk-1,_010,yes,Isabel Fisch,000016,000016,no_need,,,testing,testing,training
+20240925,N4,11,L,Oy-0,_008,yes,Isabel Fisch,000007,000007,no_need,,,testing,testing,training
+20240925,N4,11,L,Oy-0,_009,yes,Florian Müller,000008,000008,no_need,,,testing,testing,training
+20240925,N4,11,L,Oy-0,_010,yes,Florian Müller,000009,000009,no_need,,,testing,testing,training
+20240925,N4,11,L,St-0,_010,yes,Isabel Fisch,000013,000013,no_need,,,testing,testing,training
+20240926,N4,1,L,Kondara,_001,yes,Jonas Siegemund,000001,000001,no_need,,,testing,testing,testing
+20240926,N4,1,L,Kondara,_002,yes,Jonas Siegemund,000002,000002,no_need,,,testing,testing,testing
+20240926,N4,1,L,Kondara,_003,yes,Jonas Siegemund,000003,000003,no_need,,,testing,testing,testing
+20240926,N4,1,L,Kondara,_004,yes,Jonas Siegemund,000004,000004,no_need,,,testing,testing,training
+20240926,N4,1,L,Kondara,_005,yes,Jonas Siegemund,000005,000005,no_need,,,testing,testing,training
+20240926,N4,1,L,Kondara,x,yes,Jonas Siegemund,000006,000006,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20240926,N4,1,L,Col-0,x,no,,000007,000007,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20240926,N4,1,L,Col-0,_001,no,,000008,000008,no_need,,,testing,testing,testing
+20240926,N4,1,L,Col-0,_002,no,,000009,000009,no_need,,,testing,testing,testing
+20240926,N4,1,L,Col-0,x,no,,000010,000010,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20240926,N4,1,L,Col-0,x,no,,000011,000011,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20240926,N4,1,L,Col-0,_003,no,,000012,000012,no_need,,,testing,testing,testing
+20240926,N4,1,L,Bay-0,_001,yes,Jonas Siegemund,000013,000013,no_need,,,testing,testing,testing
+20240926,N4,1,L,Bay-0,_002,yes,Jonas Siegemund,000014,000014,no_need,,,testing,testing,testing
+20240926,N4,1,L,Bay-0,_003,yes,Jonas Siegemund,000015,000015,no_need,,,testing,testing,testing
+20240926,N4,1,L,Bay-0,x,yes,Jonas Siegemund,000016,000016,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20240926,N4,1,L,Bay-0,_004,yes,Jonas Siegemund,000017,000017,no_need,,,testing,testing,training
+20240926,N4,1,L,Bay-0,_005,yes,Isabel Fisch,000018,000018,no_need,,,testing,testing,training
+20240926,N4,6,L,Col-0,x,no,,000001,000001,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20240926,N4,6,L,Col-0,_004,no,,000002,000002,no_need,,,testing,testing,training
+20240926,N4,6,L,Col-0,_005,no,,000003,000003,no_need,,,testing,testing,training
+20240926,N4,6,L,Col-0,_006,no,,000004,000004,no_need,,,testing,testing,training
+20240926,N4,6,L,Col-0,_007,no,,000005,000005,no_need,,,testing,testing,training
+20240926,N4,6,L,Col-0,x,no,,000006,000006,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20240926,N4,6,L,Bay-0,_006,yes,Isabel Fisch,000007,000007,no_need,,,testing,testing,training
+20240926,N4,6,L,Bay-0,x,yes,Isabel Fisch,000008,000008,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20240926,N4,6,L,Bay-0,_007,yes,Isabel Fisch,000009,000009,no_need,,,testing,testing,training
+20240926,N4,6,L,Bay-0,x,yes,Isabel Fisch,000010,000010,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20240926,N4,6,L,Bay-0,_008,yes,Isabel Fisch,000011,000011,no_need,,,testing,testing,training
+20240926,N4,6,L,Bay-0,_009,yes,Isabel Fisch,000012,000012,no_need,,,testing,testing,training
+20240926,N4,6,L,Kondara,_006,yes,Isabel Fisch,000013,000013,no_need,,,testing,testing,training
+20240926,N4,6,L,Kondara,_007,yes,Isabel Fisch,000014,000014,no_need,,,testing,testing,training
+20240926,N4,6,L,Kondara,_008,yes,Isabel Fisch,000015,000015,no_need,,,testing,testing,training
+20240926,N4,6,L,Kondara,_009,yes,Jonas Siegemund,000016,000016,no_need,,,testing,testing,training
+20240926,N4,6,L,Kondara,_010,yes,Jonas Siegemund,000017,000017,no_need,,,testing,testing,training
+20240926,N4,11,L,Bay-0,_010,yes,Jonas Siegemund,000001,000001,no_need,,,testing,testing,training
+20240926,N4,11,L,Col-0,x,no,,000007,000007,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20240926,N4,11,L,Col-0,x,no,,000008,000008,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20240926,N4,11,L,Col-0,_008,no,,000009,000009,no_need,,,testing,testing,training
+20240926,N4,11,L,Col-0,_009,no,,000010,000010,no_need,,,testing,testing,training
+20240926,N4,11,L,Col-0,_010,no,,000011,000011,no_need,,,testing,testing,training
+20241002,N4,1,L,Hs-0,x,yes,Jonas Siegemund,000001,000001,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20241002,N4,1,L,Hs-0,_001,yes,Jonas Siegemund,000002,000002,no_need,,,testing,testing,testing
+20241002,N4,1,L,Hs-0,_002,yes,Jonas Siegemund,000003,000003,no_need,,,testing,testing,testing
+20241002,N4,1,L,Hs-0,_003,yes,Jonas Siegemund,000004,000004,no_need,,,testing,testing,testing
+20241002,N4,1,L,Hs-0,_004,yes,Jonas Siegemund,000005,000005,no_need,,,testing,testing,training
+20241002,N4,1,L,Hs-0,_005,yes,Jonas Siegemund,000006,000006,no_need,,,testing,testing,training
+20241002,N4,1,L,Cvi-0,_001,yes,Jonas Siegemund,000007,000007,no_need,,,testing,testing,testing
+20241002,N4,1,L,Cvi-0,_002,yes,Jonas Siegemund,000008,000008,no_need,,,testing,testing,testing
+20241002,N4,1,L,Cvi-0,_003,yes,Jonas Siegemund,000009,000009,no_need,,,testing,testing,testing
+20241002,N4,1,L,Cvi-0,_004,yes,Jonas Siegemund,000010,000010,no_need,,,testing,testing,training
+20241002,N4,1,L,Cvi-0,_005,yes,Jonas Siegemund,000011,000011,no_need,,,testing,testing,training
+20241002,N4,1,L,Cvi-0,_006,yes,Isabel Fisch,000012,000012,no_need,,,testing,testing,training
+20241002,N4,1,L,No-0,_001,yes,Isabel Fisch,000013,000013,no_need,,,testing,testing,testing
+20241002,N4,1,L,No-0,_002,yes,Isabel Fisch,000014,000014,no_need,,,testing,testing,testing
+20241002,N4,1,L,No-0,_003,yes,Isabel Fisch,000015,000015,no_need,,,testing,testing,testing
+20241002,N4,1,L,No-0,_004,yes,Jonas Siegemund,000016,000016,no_need,,,testing,testing,training
+20241002,N4,1,L,No-0,_005,yes,Jonas Siegemund,000017,000017,no_need,,,testing,testing,training
+20241002,N4,1,L,No-0,_006,yes,Jonas Siegemund,000018,000018,no_need,,,testing,testing,training
+20241002,N4,6,L,Cvi-0,_007,yes,Jonas Siegemund,000001,000001,no_need,,,testing,testing,training
+20241002,N4,6,L,Cvi-0,_008,yes,Jonas Siegemund,000002,000002,no_need,,,testing,testing,training
+20241002,N4,6,L,Cvi-0,_009,yes,Jonas Siegemund,000003,000003,no_need,,,testing,testing,training
+20241002,N4,6,L,Cvi-0,_010,yes,Jonas Siegemund,000004,000004,no_need,,,testing,testing,training
+20241002,N4,6,L,Hs-0,_006,yes,Isabel Fisch,000007,000007,no_need,,,testing,testing,training
+20241002,N4,6,L,Hs-0,_007,yes,Isabel Fisch,000008,000008,no_need,,,testing,testing,training
+20241002,N4,6,L,Hs-0,x,yes,Isabel Fisch,000009,000009,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20241002,N4,6,L,Hs-0,_008,yes,Isabel Fisch,000010,000010,no_need,,,testing,testing,training
+20241002,N4,6,L,Hs-0,x,yes,Isabel Fisch,000011,000011,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20241002,N4,6,L,Hs-0,_009,yes,Isabel Fisch,000012,000012,no_need,,,testing,testing,training
+20241002,N4,6,L,No-0,x,yes,Isabel Fisch,000013,000013,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20241002,N4,6,L,No-0,x,yes,Isabel Fisch,000014,000014,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20241002,N4,6,L,No-0,_007,yes,Isabel Fisch,000015,000015,no_need,,,testing,testing,training
+20241002,N4,6,L,No-0,x,yes,Jonas Siegemund,000016,000016,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20241002,N4,6,L,No-0,_008,yes,Jonas Siegemund,000017,000017,no_need,,,testing,testing,training
+20241002,N4,6,L,No-0,_009,yes,Jonas Siegemund,000018,000018,no_need,,,testing,testing,training
+20241002,N4,11,L,No-0,_010,yes,Jonas Siegemund,000007,000007,no_need,,,testing,testing,training
+20241002,N4,11,L,Hs-0,x,yes,Jonas Siegemund,000013,000013,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20241002,N4,11,L,Hs-0,_010,yes,Jonas Siegemund,000014,000014,no_need,,,testing,testing,training
+20241023,N4,1,L,Nd-1,_001,yes,Jonas Siegemund,000001,000001,no_need,,,testing,testing,testing
+20241023,N4,1,L,Nd-1,_002,yes,Jonas Siegemund,000002,000002,no_need,,,testing,testing,testing
+20241023,N4,1,L,Nd-1,_003,yes,Jonas Siegemund,000003,000003,no_need,,,testing,testing,testing
+20241023,N4,1,L,Nd-1,_004,yes,Jonas Siegemund,000004,000004,no_need,,,testing,testing,training
+20241023,N4,1,L,Nd-1,_005,yes,Jonas Siegemund,000005,000005,no_need,,,testing,testing,training
+20241023,N4,1,L,Nd-1,_006,yes,Jonas Siegemund,000006,000006,no_need,,,testing,testing,training
+20241023,N4,1,L,Pro-0,_001,yes,Jonas Siegemund,000007,000007,no_need,,,testing,testing,testing
+20241023,N4,1,L,Pro-0,x,yes,Jonas Siegemund,000008,000008,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20241023,N4,1,L,Pro-0,x,yes,Jonas Siegemund,000009,000009,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20241023,N4,1,L,Pro-0,_002,yes,Jonas Siegemund,000010,000010,no_need,,,testing,testing,testing
+20241023,N4,1,L,Pro-0,x,yes,Jonas Siegemund,000011,000011,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20241023,N4,1,L,Pro-0,_003,yes,Jonas Siegemund,000012,000012,no_need,,,testing,testing,testing
+20241023,N4,1,L,Wa-1,x,yes,Jonas Siegemund,000013,000013,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20241023,N4,1,L,Wa-1,_001,yes,Jonas Siegemund,000014,000014,no_need,,,testing,testing,testing
+20241023,N4,1,L,Wa-1,_002,yes,Jonas Siegemund,000015,000015,no_need,,,testing,testing,testing
+20241023,N4,1,L,Wa-1,_003,yes,Jonas Siegemund,000016,000016,no_need,,,testing,testing,testing
+20241023,N4,1,L,Wa-1,_004,yes,Jonas Siegemund,000017,000017,no_need,,,testing,testing,training
+20241023,N4,1,L,Wa-1,_005,yes,Jonas Siegemund,000018,000018,no_need,,,testing,testing,training
+20241023,N4,6,L,Pro-0,_004,yes,Madhura Kulkarni,000001,000001,no_need,,,testing,testing,training
+20241023,N4,6,L,Pro-0,_005,yes,Madhura Kulkarni,000002,000002,no_need,,,testing,testing,training
+20241023,N4,6,L,Pro-0,_006,yes,Madhura Kulkarni,000003,000003,no_need,,,testing,testing,training
+20241023,N4,6,L,Pro-0,_007,in progess,Madhura Kulkarni,000004,000004,no_need,,,testing,testing,training
+20241023,N4,6,L,Pro-0,x,yes ,Jonas Siegemund,000005,000005,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20241023,N4,6,L,Pro-0,_008,yes ,Jonas Siegemund,000006,000006,no_need,,,testing,testing,training
+20241023,N4,6,L,Wa-1,_006,yes ,Marjan Karami,000007,000007,no_need,,,testing,testing,training
+20241023,N4,6,L,Wa-1,_007,yes ,Jonas Siegemund,000008,000008,no_need,,,testing,testing,training
+20241023,N4,6,L,Wa-1,x,yes ,Marjan Karami,000009,000009,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20241023,N4,6,L,Wa-1,_008,yes ,Marjan Karami,000010,000010,no_need,,,testing,testing,training
+20241023,N4,6,L,Wa-1,_009,yes ,Marjan Karami,000011,000011,no_need,,,testing,testing,training
+20241023,N4,6,L,Wa-1,_010,In progess,Marjan Karami,000012,000012,no_need,,,testing,testing,training
+20241023,N4,6,L,Nd-1,_007,no,,000013,000013,no_need,,,testing,testing,training
+20241023,N4,6,L,Nd-1,_008,no,,000014,000014,no_need,,,testing,testing,training
+20241023,N4,6,L,Nd-1,_009,no,,000015,000015,no_need,,,testing,testing,training
+20241023,N4,6,L,Nd-1,_010,no,,000016,000016,no_need,,,testing,testing,training
+20241023,N4,11,L,Pro-0,_009,yes ,Mahsaa Hosseinalipour,000013,000013,no_need,,,testing,testing,training
+20241023,N4,11,L,Pro-0,_010,yes ,Mahsaa Hosseinalipour,000014,000014,no_need,,,testing,testing,training
+20241024,N4,1,L,Mt-0,x,yes ,Mahsaa Hosseinalipour,000001,000001,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20241024,N4,1,L,Mt-0,x,yes ,Mahsaa Hosseinalipour,000002,000002,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20241024,N4,1,L,Mt-0,_001,yes ,Mahsaa Hosseinalipour,000003,000003,no_need,,,testing,testing,testing
+20241024,N4,1,L,Mt-0,_002,yes,Mahsaa Hosseinalipour,000004,000004,no_need,,,testing,testing,testing
+20241024,N4,1,L,Mt-0,_003,yes ,Mahsaa Hosseinalipour,000005,000005,no_need,,,testing,testing,testing
+20241024,N4,1,L,Mt-0,_004,no,Mahsaa Hosseinalipour,000006,000006,no_need,,,testing,testing,training
+20241024,N4,1,L,Fei-0,_001,no,Mahsaa Hosseinalipour,000007,000007,no_need,,,testing,testing,testing
+20241024,N4,1,L,Fei-0,_002,no,,000008,000008,no_need,,,testing,testing,testing
+20241024,N4,1,L,Fei-0,_003,no,,000009,000009,no_need,,,testing,testing,testing
+20241024,N4,1,L,Fei-0,_004,no,,000010,000010,no_need,,,testing,testing,training
+20241024,N4,1,L,Fei-0,_005,no,,000011,000011,no_need,,,testing,testing,training
+20241024,N4,1,L,Fei-0,_006,no,,000012,000012,no_need,,,testing,testing,training
+20241024,N4,1,L,Bur-0,x,no,,000013,000013,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20241024,N4,1,L,Bur-0,_001,no,,000014,000014,no_need,,,testing,testing,testing
+20241024,N4,1,L,Bur-0,_002,no,,000015,000015,no_need,,,testing,testing,testing
+20241024,N4,1,L,Bur-0,_003,no,,000016,000016,no_need,,,testing,testing,testing
+20241024,N4,1,L,Bur-0,_004,no,,000017,000017,no_need,,,testing,testing,training
+20241024,N4,1,L,Bur-0,x,no,,000018,000018,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20241024,N4,6,L,Mt-0,_005,no,,000001,000001,no_need,,,testing,testing,training
+20241024,N4,6,L,Mt-0,_006,no,,000002,000002,no_need,,,testing,testing,training
+20241024,N4,6,L,Mt-0,_007,no,,000003,000003,no_need,,,testing,testing,training
+20241024,N4,6,L,Mt-0,_008,no,,000004,000004,no_need,,,testing,testing,training
+20241024,N4,6,L,Mt-0,x,no,,000005,000005,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20241024,N4,6,L,Mt-0,x,no,,000006,000006,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20241024,N4,6,L,Bur-0,_005,no,,000007,000007,no_need,,,testing,testing,training
+20241024,N4,6,L,Bur-0,x,no,,000008,000008,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20241024,N4,6,L,Bur-0,x,no,,000009,000009,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20241024,N4,6,L,Bur-0,_006,no,,000010,000010,no_need,,,testing,testing,training
+20241024,N4,6,L,Bur-0,_007,no,,000011,000011,no_need,,,testing,testing,training
+20241024,N4,6,L,Bur-0,_008,no,,000012,000012,no_need,,,testing,testing,training
+20241024,N4,6,L,Fei-0,_007,no,,000013,000013,no_need,,,testing,testing,training
+20241024,N4,6,L,Fei-0,_008,no,,000014,000014,no_need,,,testing,testing,training
+20241024,N4,6,L,Fei-0,_009,no,,000015,000015,no_need,,,testing,testing,training
+20241024,N4,6,L,Fei-0,_010,no,,000016,000016,no_need,,,testing,testing,training
+20241024,N4,11,L,Bur-0,_009,no,,000001,000001,no_need,,,testing,testing,training
+20241024,N4,11,L,Bur-0,_010,no,,000002,000002,no_need,,,testing,testing,training
+20241024,N4,11,L,Mt-0,_009,no,,000013,000013,no_need,,,testing,testing,training
+20241024,N4,11,L,Mt-0,x,no,,000014,000014,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20241024,N4,11,L,Mt-0,_010,no,,000015,000015,no_need,,,testing,testing,training
+20241030,N4,1,L,Sav-0,x,no,Ammara Akhtar,000001,000001,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20241030,N4,1,L,Sav-0,x,no,Ammara Akhtar,000002,000002,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20241030,N4,1,L,Sav-0,_001,no,Ammara Akhtar,000003,000003,no_need,,,testing,testing,testing
+20241030,N4,1,L,Sav-0,_002,no,Ammara Akhtar,000004,000004,no_need,,,testing,testing,testing
+20241030,N4,1,L,Sav-0,x,no,Ammara Akhtar,000005,000005,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20241030,N4,1,L,Sav-0,_003,no,Ammara Akhtar,000006,000006,no_need,,,testing,testing,testing
+20241030,N4,1,L,Pla-0,x,no,Ammara Akhtar,000007,000007,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20241030,N4,1,L,Pla-0,_001,no,Ammara Akhtar,000008,000008,no_need,,,testing,testing,testing
+20241030,N4,1,L,Pla-0,_002,no,Ammara Akhtar,000009,000009,no_need,,,testing,testing,testing
+20241030,N4,1,L,Pla-0,_003,no,Ammara Akhtar,000010,000010,no_need,,,testing,testing,testing
+20241030,N4,1,L,Pla-0,_004,no,Ammara Akhtar,000011,000011,no_need,,,testing,testing,training
+20241030,N4,1,L,Pla-0,_005,no,Ammara Akhtar,000012,000012,no_need,,,testing,testing,training
+20241030,N4,6,L,Pla-0,_006,yes,Marjan Karami,000001,000001,no_need,,,testing,testing,training
+20241030,N4,6,L,Pla-0,x,yes,Marjan Karami,000002,000002,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20241030,N4,6,L,Pla-0,_007,yes,Marjan Karami,000003,000003,no_need,,,testing,testing,training
+20241030,N4,6,L,Pla-0,_008,yes ,Ammara Akhtar,000004,000004,no_need,,,testing,testing,training
+20241030,N4,6,L,Pla-0,x,yes ,Ammara Akhtar,000005,000005,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20241030,N4,6,L,Pla-0,_009,yes ,Ammara Akhtar,000006,000006,no_need,,,testing,testing,training
+20241030,N4,6,L,Sav-0,_004,yes ,Ammara Akhtar,000007,000007,no_need,,,testing,testing,training
+20241030,N4,6,L,Sav-0,_005,yes ,Ammara Akhtar,000008,000008,no_need,,,testing,testing,training
+20241030,N4,6,L,Sav-0,x,yes ,Ammara Akhtar,000009,000009,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20241030,N4,6,L,Sav-0,_006,yes ,Ammara Akhtar,000010,000010,no_need,,,testing,testing,training
+20241030,N4,6,L,Sav-0,_007,yes ,Ammara Akhtar,000011,000011,no_need,,,testing,testing,training
+20241030,N4,6,L,Sav-0,x,yes ,Ammara Akhtar,000012,000012,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20241030,N4,11,L,Pla-0,_010,yes ,Ammara Akhtar,000007,000007,no_need,,,testing,testing,training
+20241030,N4,11,L,Sav-0,_008,yes ,Ammara Akhtar,000013,000013,no_need,,,testing,testing,training
+20241030,N4,11,L,Sav-0,_009,yes ,Ammara Akhtar,000014,000014,no_need,,,testing,testing,training
+20241030,N4,11,L,Sav-0,_010,yes ,Ammara Akhtar,000015,000015,no_need,,,testing,testing,training
+20241031,N4,1,L,Ts-1,_001,yes ,Ammara Akhtar,000001,000001,no_need,,,testing,testing,testing
+20241031,N4,1,L,Ts-1,_002,yes ,Ammara Akhtar,000002,000002,no_need,,,testing,testing,testing
+20241031,N4,1,L,Ts-1,_003,yes ,Ammara Akhtar,000003,000003,no_need,,,testing,testing,testing
+20241031,N4,1,L,Ts-1,_004,yes ,Ammara Akhtar,000004,000004,no_need,,,testing,testing,training
+20241031,N4,1,L,Ts-1,x,yes ,Ammara Akhtar,000005,000005,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20241031,N4,1,L,Ts-1,_005,yes ,Ammara Akhtar,000006,000006,no_need,,,testing,testing,training
+20241031,N4,6,L,Ts-1,_006,yes ,Ammara Akhtar,000013,000013,no_need,,,testing,testing,training
+20241031,N4,6,L,Ts-1,_007,yes ,Ammara Akhtar,000014,000014,no_need,,,testing,testing,training
+20241031,N4,6,L,Ts-1,_008,yes ,Ammara Akhtar,000015,000015,no_need,,,testing,testing,training
+20241031,N4,6,L,Ts-1,x,yes ,Ammara Akhtar,000016,000016,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20241031,N4,6,L,Ts-1,_009,yes ,Ammara Akhtar,000017,000017,no_need,,,testing,testing,training
+20241031,N4,6,L,Ts-1,_010,yes ,Ammara Akhtar,000018,000018,no_need,,,testing,testing,training
+20250115,N4,1,L,Lip-0,_001,yes ,Marjan Karami,000001,000001,no_need,,,testing,testing,testing
+20250115,N4,1,L,Lip-0,_002,yes,Marjan Karami,000002,000002,no_need,,,testing,testing,testing
+20250115,N4,1,L,Lip-0,_003,yes,Marjan Karami,000003,000003,no_need,,,testing,testing,testing
+20250115,N4,1,L,Lip-0,x,yes,Marjan Karami,000004,000004,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250115,N4,1,L,Lip-0,_004,yes,Marjan Karami,000005,000005,no_need,,,testing,testing,training
+20250115,N4,1,L,Lip-0,_005,yes,Marjan Karami,000006,000006,no_need,,,testing,testing,training
+20250115,N4,6,L,Lip-0,_006,yes,Marjan Karami,000007,000007,no_need,,,testing,testing,training
+20250115,N4,6,L,Lip-0,_007,yes,Marjan Karami,000008,000008,no_need,,,testing,testing,training
+20250115,N4,6,L,Lip-0,_008,yes,Marjan Karami,000009,000009,no_need,,,testing,testing,training
+20250115,N4,6,L,Lip-0,x,yes,Marjan Karami,000010,000010,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20250115,N4,6,L,Lip-0,_009,yes,Marjan Karami,000011,000011,no_need,,,testing,testing,training
+20250115,N4,6,L,Lip-0,_010,yes,Marjan Karami,000012,000012,no_need,,,testing,testing,training
+20250129,N4,1,L,Ting-1,x,yes,Ammara Akhtar,000001,000001,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20250129,N4,1,L,Ting-1,_001,yes,Ammara Akhtar,000002,000002,no_need,,,testing,testing,testing
+20250129,N4,1,L,Ting-1,_002,yes ,Ammara Akhtar,000003,000003,no_need,,,testing,testing,testing
+20250129,N4,1,L,Ting-1,_003,yes,Ammara Akhtar,000004,000004,no_need,,,testing,testing,testing
+20250129,N4,1,L,Ting-1,x,yes,Ammara Akhtar,000005,000005,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250129,N4,1,L,Ting-1,_004,yes,Ammara Akhtar,000006,000006,no_need,,,testing,testing,training
+20250129,N4,1,L,Ge-0,x,yes,Ammara Akhtar,000007,000007,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250129,N4,1,L,Ge-0,_001,yes,Ammara Akhtar,000008,000008,no_need,,,testing,testing,testing
+20250129,N4,1,L,Ge-0,_002,yes,Ammara Akhtar,000009,000009,no_need,,,testing,testing,testing
+20250129,N4,1,L,Ge-0,x,yes,Ammara Akhtar,000010,000010,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250129,N4,1,L,Ge-0,x,yes,Ammara Akhtar,000011,000011,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250129,N4,1,L,Ge-0,_003,yes,Ammara Akhtar,000012,000012,no_need,,,testing,testing,testing
+20250129,N4,6,L,Ge-0,x,yes,Ammara Akhtar,000007,000007,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20250129,N4,6,L,Ge-0,x,yes,Ammara Akhtar,000008,000008,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250129,N4,6,L,Ge-0,_004,yes,Ammara Akhtar,000009,000009,no_need,,,testing,testing,training
+20250129,N4,6,L,Ge-0,_005,yes,Ammara Akhtar,000010,000010,no_need,,,testing,testing,training
+20250129,N4,6,L,Ge-0,x,yes,Ammara Akhtar,000011,000011,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250129,N4,6,L,Ge-0,_006,yes,Ammara Akhtar,000012,000012,no_need,,,testing,testing,training
+20250129,N4,6,L,Ting-1,x,yes,Ammara Akhtar,000013,000013,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250129,N4,6,L,Ting-1,x,yes,Ammara Akhtar,000014,000014,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20250129,N4,6,L,Ting-1,x,yes,Ammara Akhtar,000015,000015,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20250129,N4,6,L,Ting-1,_005,yes,Ammara Akhtar,000016,000016,no_need,,,testing,testing,training
+20250129,N4,6,L,Ting-1,_006,yes,Ammara Akhtar,000017,000017,no_need,,,testing,testing,training
+20250129,N4,6,L,Ting-1,_007,yes,Ammara Akhtar,000018,000018,no_need,,,testing,testing,training
+20250129,N4,11,L,Ting-1,x,yes,Marjan Karami,000007,000007,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250129,N4,11,L,Ting-1,_008,yes,Marjan Karami,000008,000008,no_need,,,testing,testing,training
+20250129,N4,11,L,Ting-1,_009,yes,Marjan Karami,000009,000009,no_need,,,testing,testing,training
+20250129,N4,11,L,Ting-1,_010,yes,Marjan Karami,000010,000010,no_need,,,testing,testing,training
+20250129,N4,11,L,Ge-0,_007,yes,Marjan Karami,000013,000013,no_need,,,testing,testing,training
+20250129,N4,11,L,Ge-0,_008,yes,Marjan Karami,000014,000014,no_need,,,testing,testing,training
+20250129,N4,11,L,Ge-0,_009,yes,Marjan Karami,000015,000015,no_need,,,testing,testing,training
+20250129,N4,11,L,Ge-0,x,yes,Marjan Karami,000016,000016,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20250129,N4,11,L,Ge-0,_010,yes,Marjan Karami,000017,000017,no_need,,,testing,testing,training
+20250409,N4,1,L,id2-3,_001,yes,Mellanie Martin,000001,000001,no_need,,,testing,testing,testing
+20250409,N4,1,L,id2-3,_002,yes,Mellanie Martin,000002,000002,no_need,,,testing,testing,testing
+20250409,N4,1,L,id2-3,_003,yes,Mellanie Martin,000003,000003,no_need,,,testing,testing,testing
+20250409,N4,1,L,id2-3,_004,yes,Mellanie Martin,000004,000004,no_need,,,testing,testing,training
+20250409,N4,1,L,id2-3,_005,yes,Mellanie Martin,000005,000005,no_need,,,testing,testing,training
+20250409,N4,1,L,id2-3,x,yes,Mellanie Martin,000006,000006,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N4,1,L,pme38-1,_001,yes,Ammara Akhtar,000007,000007,no_need,,,testing,testing,testing
+20250409,N4,1,L,pme38-1,_002,yes,Ammara Akhtar,000008,000008,no_need,,,testing,testing,testing
+20250409,N4,1,L,pme38-1,_003,yes,Ammara Akhtar,000009,000009,no_need,,,testing,testing,testing
+20250409,N4,1,L,pme38-1,_004,yes,Marjan Karami,000010,000010,no_need,,,testing,testing,training
+20250409,N4,1,L,pme38-1,_005,yes,Ammara Akhtar,000011,000011,no_need,,,testing,testing,training
+20250409,N4,1,L,pme38-1,_006,yes,Ammara Akhtar,000012,000012,no_need,,,testing,testing,training
+20250409,N4,1,L,Col-0*,_001,yes,Mellanie Martin,000013,000013,no_need,,,testing,testing,testing
+20250409,N4,1,L,Col-0*,_002,yes,Mellanie Martin,000014,000014,no_need,,,testing,testing,testing
+20250409,N4,1,L,Col-0*,_003,yes,Mellanie Martin,000015,000015,no_need,,,testing,testing,testing
+20250409,N4,1,L,Col-0*,_004,yes,Mellanie Martin,000016,000016,no_need,,,testing,testing,training
+20250409,N4,1,L,Col-0*,x,yes,Mellanie Martin,000017,000017,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N4,1,L,Col-0*,x,yes,Mellanie Martin,000018,000018,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20250409,N16,2,L,id2-3,_001,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N16,2,L,id2-3,_002,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N16,2,L,id2-3,_003,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N16,2,L,id2-3,_004,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N16,2,L,id2-3,x,yes,Mellanie Martin,000005,000005,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20250409,N16,2,L,id2-3,_005,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N16,2,L,Col-0*,_001,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N16,2,L,Col-0*,_002,yes,Mellanie Martin,000014,000014,no_need,,,training,training,training
+20250409,N16,2,L,Col-0*,_003,yes,Mellanie Martin,000015,000015,no_need,,,training,training,training
+20250409,N16,2,L,Col-0*,_004,yes,Mellanie Martin,000016,000016,no_need,,,training,training,training
+20250409,N16,2,L,Col-0*,_005,yes,Mellanie Martin,000017,000017,no_need,,,training,training,training
+20250409,N16,2,L,Col-0*,_006,yes,Mellanie Martin,000018,000018,no_need,,,training,training,training
+20250409,N32,3,L,id2-3,_001,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N32,3,L,id2-3,_002,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N32,3,L,id2-3,_003,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N32,3,L,id2-3,_004,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N32,3,L,id2-3,_005,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N32,3,L,id2-3,_006,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N32,3,L,Col-0*,_001,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N32,3,L,Col-0*,_002,yes,Mellanie Martin,000014,000014,no_need,,,training,training,training
+20250409,N32,3,L,Col-0*,_003,yes,Mellanie Martin,000015,000015,no_need,,,training,training,training
+20250409,N32,3,L,Col-0*,_004,yes,Mellanie Martin,000016,000016,no_need,,,training,training,training
+20250409,N32,3,L,Col-0*,_005,yes,Mellanie Martin,000017,000017,no_need,,,training,training,training
+20250409,N32,3,L,Col-0*,_006,yes,Mellanie Martin,000018,000018,no_need,,,training,training,training
+20250409,N64,4,L,id2-3,_001,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N64,4,L,id2-3,_002,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N64,4,L,id2-3,_003,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N64,4,L,id2-3,_004,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N64,4,L,id2-3,_005,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N64,4,L,id2-3,_006,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N64,4,L,Col-0*,_001,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N64,4,L,Col-0*,_002,yes,Mellanie Martin,000014,000014,no_need,,,training,training,training
+20250409,N64,4,L,Col-0*,_003,yes,Mellanie Martin,000015,000015,no_need,,,training,training,training
+20250409,N64,4,L,Col-0*,_004,yes,Mellanie Martin,000016,000016,no_need,,,training,training,training
+20250409,N64,4,L,Col-0*,_005,yes,Mellanie Martin,000017,000017,no_need,,,training,training,training
+20250409,N64,4,L,Col-0*,_006,yes,Mellanie Martin,000018,000018,no_need,,,training,training,training
+20250409,N128,5,L,id2-3,_001,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N128,5,L,id2-3,_002,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N128,5,L,id2-3,x,yes,Mellanie Martin,000003,000003,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20250409,N128,5,L,id2-3,_003,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N128,5,L,id2-3,x,yes,Mellanie Martin,000005,000005,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N128,5,L,id2-3,_004,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N128,5,L,Col-0*,_001,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N128,5,L,Col-0*,_002,yes,Mellanie Martin,000014,000014,no_need,,,training,training,training
+20250409,N128,5,L,Col-0*,_003,yes,Mellanie Martin,000015,000015,no_need,,,training,training,training
+20250409,N128,5,L,Col-0*,_004,yes,Mellanie Martin,000016,000016,no_need,,,training,training,training
+20250409,N128,5,L,Col-0*,x,yes,Mellanie Martin,000017,000017,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20250409,N128,5,L,Col-0*,x,yes,Mellanie Martin,000018,000018,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N4,6,L,pme38-1,_007,yes,Ammara Akhtar,000001,000001,no_need,,,testing,testing,training
+20250409,N4,6,L,pme38-1,_008,yes,Ammara Akhtar,000002,000002,no_need,,,testing,testing,training
+20250409,N4,6,L,pme38-1,_009,yes,Ammara Akhtar,000003,000003,no_need,,,testing,testing,training
+20250409,N4,6,L,pme38-1,_010,yes,Marjan Karami,000004,000004,no_need,,,testing,testing,training
+20250409,N4,6,L,Col-0*,_005,yes,Mellanie Martin,000007,000007,no_need,,,testing,testing,training
+20250409,N4,6,L,Col-0*,_006,yes,Mellanie Martin,000008,000008,no_need,,,testing,testing,training
+20250409,N4,6,L,Col-0*,_007,yes,Mellanie Martin,000009,000009,no_need,,,testing,testing,training
+20250409,N4,6,L,Col-0*,_008,yes,Mellanie Martin,000010,000010,no_need,,,testing,testing,training
+20250409,N4,6,L,Col-0*,_009,yes,Mellanie Martin,000011,000011,no_need,,,testing,testing,training
+20250409,N4,6,L,Col-0*,x,yes,Mellanie Martin,000012,000012,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20250409,N4,6,L,id2-3,x,yes,Mellanie Martin,000013,000013,no_need,5. tangled root hairs/overlap with other root or root hairs,,ignore,ignore,ignore
+20250409,N4,6,L,id2-3,_006,yes,Mellanie Martin,000014,000014,no_need,,,testing,testing,training
+20250409,N4,6,L,id2-3,_007,yes,Mellanie Martin,000015,000015,no_need,,,testing,testing,training
+20250409,N4,6,L,id2-3,_008,yes,Mellanie Martin,000016,000016,no_need,,,testing,testing,training
+20250409,N4,6,L,id2-3,_009,yes,Mellanie Martin,000017,000017,no_need,,,testing,testing,training
+20250409,N4,6,L,id2-3,_010,yes,Mellanie Martin,000018,000018,no_need,,,testing,testing,training
+20250409,N16,7,L,Col-0*,_007,yes,Mellanie Martin,000007,000007,no_need,,,training,training,training
+20250409,N16,7,L,Col-0*,_008,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N16,7,L,Col-0*,_009,yes,Mellanie Martin,000009,000009,no_need,,,training,training,training
+20250409,N16,7,L,Col-0*,_010,yes,Mellanie Martin,000010,000010,no_need,,,training,training,training
+20250409,N16,7,L,Col-0*,_011,yes,Mellanie Martin,000011,000011,no_need,,,training,training,training
+20250409,N16,7,L,Col-0*,_012,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N16,7,L,id2-3,_006,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N16,7,L,id2-3,_007,yes,Mellanie Martin,000014,000014,no_need,,,training,training,training
+20250409,N16,7,L,id2-3,_008,yes,Mellanie Martin,000015,000015,no_need,,,training,training,training
+20250409,N16,7,L,id2-3,_009,yes,Mellanie Martin,000016,000016,no_need,,,training,training,training
+20250409,N16,7,L,id2-3,_010,yes,Mellanie Martin,000017,000017,no_need,,,training,training,training
+20250409,N16,7,L,id2-3,_011,yes,Mellanie Martin,000018,000018,no_need,,,training,training,training
+20250409,N32,8,L,Col-0*,_007,yes,Mellanie Martin,000007,000007,no_need,,,training,training,training
+20250409,N32,8,L,Col-0*,_008,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N32,8,L,Col-0*,_009,yes,Mellanie Martin,000009,000009,no_need,,,training,training,training
+20250409,N32,8,L,Col-0*,x,yes,Mellanie Martin,000010,000010,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N32,8,L,Col-0*,_010,yes,Mellanie Martin,000011,000011,no_need,,,training,training,training
+20250409,N32,8,L,Col-0*,_011,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N32,8,L,id2-3,_007,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N32,8,L,id2-3,_008,yes,Mellanie Martin,000014,000014,no_need,,,training,training,training
+20250409,N32,8,L,id2-3,_009,yes,Mellanie Martin,000015,000015,no_need,,,training,training,training
+20250409,N32,8,L,id2-3,x,yes,Mellanie Martin,000016,000016,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N32,8,L,id2-3,_010,yes,Mellanie Martin,000017,000017,no_need,,,training,training,training
+20250409,N32,8,L,id2-3,_011,yes,Mellanie Martin,000018,000018,no_need,,,training,training,training
+20250409,N64,9,L,Col-0*,_007,yes,Mellanie Martin,000007,000007,no_need,,,training,training,training
+20250409,N64,9,L,Col-0*,_008,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N64,9,L,Col-0*,_009,yes,Mellanie Martin,000009,000009,no_need,,,training,training,training
+20250409,N64,9,L,Col-0*,x,yes,Mellanie Martin,000010,000010,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N64,9,L,Col-0*,_010,yes,Mellanie Martin,000011,000011,no_need,,,training,training,training
+20250409,N64,9,L,Col-0*,_011,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N64,9,L,id2-3,_007,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N64,9,L,id2-3,x,yes,Mellanie Martin,000014,000014,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N64,9,L,id2-3,x,yes,Mellanie Martin,000015,000015,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250409,N64,9,L,id2-3,_008,yes,Mellanie Martin,000016,000016,no_need,,,training,training,training
+20250409,N64,9,L,id2-3,_009,yes,Mellanie Martin,000017,000017,no_need,,,training,training,training
+20250409,N64,9,L,id2-3,_010,yes,Mellanie Martin,000018,000018,no_need,,,training,training,training
+20250409,N128,10,L,Col-0*,_005,yes,Mellanie Martin,000007,000007,no_need,,,training,training,training
+20250409,N128,10,L,Col-0*,x,yes,Mellanie Martin,000008,000008,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20250409,N128,10,L,Col-0*,x,yes,Mellanie Martin,000009,000009,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N128,10,L,Col-0*,_006,yes,Mellanie Martin,000010,000010,no_need,,,training,training,training
+20250409,N128,10,L,Col-0*,_007,yes,Mellanie Martin,000011,000011,no_need,,,training,training,training
+20250409,N128,10,L,Col-0*,_008,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N128,10,L,id2-3,_005,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N128,10,L,id2-3,_006,yes,Mellanie Martin,000014,000014,no_need,,,training,training,training
+20250409,N128,10,L,id2-3,_007,yes,Mellanie Martin,000015,000015,no_need,,,training,training,training
+20250409,N128,10,L,id2-3,x,yes,Mellanie Martin,000016,000016,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N128,10,L,id2-3,_008,yes,Mellanie Martin,000017,000017,no_need,,,training,training,training
+20250409,N128,10,L,id2-3,_009,yes,Mellanie Martin,000018,000018,no_need,,,training,training,training
+20250409,N4,11,L,Col-0*,_010,yes,Mellanie Martin,000001,000001,no_need,,,testing,testing,training
+20250409,N4,11,L,Col-0*,_011,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N4,11,L,Col-0*,_012,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N4,11,L,Col-0*,_013,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N4,11,L,Col-0*,_014,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N4,11,L,Col-0*,_015,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N4,11,L,id2-3,_011,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N4,11,L,id2-3,_012,yes,Mellanie Martin,000014,000014,no_need,,,training,training,training
+20250409,N4,11,L,id2-3,_013,yes,Mellanie Martin,000015,000015,no_need,,,training,training,training
+20250409,N4,11,L,id2-3,_014,yes,Mellanie Martin,000016,000016,no_need,,,training,training,training
+20250409,N4,11,L,id2-3,_015,yes,Mellanie Martin,000017,000017,no_need,,,training,training,training
+20250409,N4,11,L,id2-3,_016,yes,Mellanie Martin,000018,000018,no_need,,,training,training,training
+20250409,N16,12,L,Col-0*,x,yes,Mellanie Martin,000001,000001,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N16,12,L,Col-0*,_013,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N16,12,L,Col-0*,_014,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N16,12,L,Col-0*,_015,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N16,12,L,Col-0*,_016,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N16,12,L,Col-0*,_017,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N16,12,L,id2-3,_012,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N16,12,L,id2-3,_013,yes,Mellanie Martin,000014,000014,no_need,,,training,training,training
+20250409,N16,12,L,id2-3,_014,yes,Mellanie Martin,000015,000015,no_need,,,training,training,training
+20250409,N16,12,L,id2-3,_015,yes,Mellanie Martin,000016,000016,no_need,,,training,training,training
+20250409,N16,12,L,id2-3,x,yes,Mellanie Martin,000017,000017,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N16,12,L,id2-3,_016,yes,Mellanie Martin,000018,000018,no_need,,,training,training,training
+20250409,N32,13,L,Col-0*,_012,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N32,13,L,Col-0*,_013,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N32,13,L,Col-0*,_014,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N32,13,L,Col-0*,_015,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N32,13,L,Col-0*,_016,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N32,13,L,Col-0*,_017,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N32,13,L,id2-3,_012,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N32,13,L,id2-3,_013,yes,Mellanie Martin,000014,000014,no_need,,,training,training,training
+20250409,N32,13,L,id2-3,_014,yes,Mellanie Martin,000015,000015,no_need,,,training,training,training
+20250409,N32,13,L,id2-3,_015,yes,Mellanie Martin,000016,000016,no_need,,,training,training,training
+20250409,N32,13,L,id2-3,_016,yes,Mellanie Martin,000017,000017,no_need,,,training,training,training
+20250409,N32,13,L,id2-3,x,yes,Mellanie Martin,000018,000018,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250409,N64,14,L,Col-0*,_012,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N64,14,L,Col-0*,_013,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N64,14,L,Col-0*,_014,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N64,14,L,Col-0*,_015,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N64,14,L,Col-0*,_016,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N64,14,L,Col-0*,_017,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N64,14,L,id2-3,_011,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N64,14,L,id2-3,_012,yes,Mellanie Martin,000014,000014,no_need,,,training,training,training
+20250409,N64,14,L,id2-3,x,yes,Mellanie Martin,000015,000015,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N64,14,L,id2-3,_013,yes,Mellanie Martin,000016,000016,no_need,,,training,training,training
+20250409,N64,14,L,id2-3,_014,yes,Mellanie Martin,000017,000017,no_need,,,training,training,training
+20250409,N64,14,L,id2-3,_015,yes,Mellanie Martin,000018,000018,no_need,,,training,training,training
+20250409,N128,15,L,Col-0*,_009,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N128,15,L,Col-0*,_010,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N128,15,L,Col-0*,_011,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N128,15,L,Col-0*,_012,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N128,15,L,Col-0*,_013,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N128,15,L,Col-0*,x,yes,Mellanie Martin,000006,000006,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20250409,N128,15,L,id2-3,_010,yes,Mellanie Martin,000013,000013,no_need,,,training,training,training
+20250409,N128,15,L,id2-3,x,yes,Mellanie Martin,000014,000014,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N128,15,L,id2-3,_011,yes,Mellanie Martin,000015,000015,no_need,,,training,training,training
+20250409,N128,15,L,id2-3,_012,yes,Mellanie Martin,000016,000016,no_need,,,training,training,training
+20250409,N128,15,L,id2-3,_013,yes,Mellanie Martin,000017,000017,no_need,,,training,training,training
+20250409,N128,15,L,id2-3,_014,yes,Mellanie Martin,000018,000018,no_need,,,training,training,training
+20250409,N4,16,L,id2-3,_017,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N4,16,L,id2-3,_018,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N4,16,L,id2-3,_019,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N4,16,L,id2-3,_020,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N4,16,L,id2-3,_021,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N4,16,L,id2-3,_022,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N4,16,L,Col-0*,_016,yes,Mellanie Martin,000007,000007,no_need,,,training,training,training
+20250409,N4,16,L,Col-0*,_017,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N4,16,L,Col-0*,_018,yes,Mellanie Martin,000009,000009,no_need,,,training,training,training
+20250409,N4,16,L,Col-0*,_019,yes,Mellanie Martin,000010,000010,no_need,,,training,training,training
+20250409,N4,16,L,Col-0*,_020,yes,Mellanie Martin,000011,000011,no_need,,,training,training,training
+20250409,N4,16,L,Col-0*,_021,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N16,17,L,id2-3,_017,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N16,17,L,id2-3,_018,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N16,17,L,id2-3,x,yes,Mellanie Martin,000003,000003,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250409,N16,17,L,id2-3,x,yes,Mellanie Martin,000004,000004,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20250409,N16,17,L,id2-3,_019,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N16,17,L,id2-3,_020,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N16,17,L,Col-0*,_018,yes,Mellanie Martin,000007,000007,no_need,,,training,training,training
+20250409,N16,17,L,Col-0*,_019,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N16,17,L,Col-0*,_020,yes,Mellanie Martin,000009,000009,no_need,,,training,training,training
+20250409,N16,17,L,Col-0*,_021,yes,Mellanie Martin,000010,000010,no_need,,,training,training,training
+20250409,N16,17,L,Col-0*,_022,yes,Mellanie Martin,000011,000011,no_need,,,training,training,training
+20250409,N16,17,L,Col-0*,_023,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N32,18,L,id2-3,_017,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N32,18,L,id2-3,_018,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N32,18,L,id2-3,x,yes,Mellanie Martin,000003,000003,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20250409,N32,18,L,id2-3,_019,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N32,18,L,id2-3,_020,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N32,18,L,id2-3,_021,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N32,18,L,Col-0*,_018,yes,Mellanie Martin,000007,000007,no_need,,,training,training,training
+20250409,N32,18,L,Col-0*,_019,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N32,18,L,Col-0*,_020,yes,Mellanie Martin,000009,000009,no_need,,,training,training,training
+20250409,N32,18,L,Col-0*,x,yes,Mellanie Martin,000010,000010,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N32,18,L,Col-0*,x,yes,Mellanie Martin,000011,000011,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250409,N32,18,L,Col-0*,_021,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N64,19,L,id2-3,_016,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N64,19,L,id2-3,x,yes,Mellanie Martin,000002,000002,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N64,19,L,id2-3,_017,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N64,19,L,id2-3,_018,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N64,19,L,id2-3,_019,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N64,19,L,id2-3,_020,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N64,19,L,Col-0*,_018,yes,Mellanie Martin,000007,000007,no_need,,,training,training,training
+20250409,N64,19,L,Col-0*,_019,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N64,19,L,Col-0*,_020,yes,Mellanie Martin,000009,000009,no_need,,,training,training,training
+20250409,N64,19,L,Col-0*,_021,yes,Mellanie Martin,000010,000010,no_need,,,training,training,training
+20250409,N64,19,L,Col-0*,x,yes,Mellanie Martin,000011,000011,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N64,19,L,Col-0*,_022,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N128,20,L,id2-3,x,yes,Mellanie Martin,000001,000001,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N128,20,L,id2-3,_015,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N128,20,L,id2-3,_016,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N128,20,L,id2-3,_017,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N128,20,L,id2-3,_018,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N128,20,L,id2-3,_019,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N128,20,L,Col-0*,x,yes,Mellanie Martin,000007,000007,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250409,N128,20,L,Col-0*,_014,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N128,20,L,Col-0*,_015,yes,Mellanie Martin,000009,000009,no_need,,,training,training,training
+20250409,N128,20,L,Col-0*,_016,yes,Mellanie Martin,000010,000010,no_need,,,training,training,training
+20250409,N128,20,L,Col-0*,_017,yes,Mellanie Martin,000011,000011,no_need,,,training,training,training
+20250409,N128,20,L,Col-0*,_018,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N4,21,L,Col-0*,x,yes,Mellanie Martin,000001,000001,no_need,4. dried out root/ root grew in the air,,ignore,ignore,ignore
+20250409,N4,21,L,Col-0*,_022,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N4,21,L,Col-0*,_023,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N4,21,L,Col-0*,_024,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N4,21,L,Col-0*,_025,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N4,21,L,Col-0*,_026,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N4,21,L,id2-3,_023,yes,Mellanie Martin,000007,000007,no_need,,,training,training,training
+20250409,N4,21,L,id2-3,_024,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N4,21,L,id2-3,_025,yes,Mellanie Martin,000009,000009,no_need,,,training,training,training
+20250409,N4,21,L,id2-3,_026,yes,Mellanie Martin,000010,000010,no_need,,,training,training,training
+20250409,N4,21,L,id2-3,_027,yes,Mellanie Martin,000011,000011,no_need,,,training,training,training
+20250409,N4,21,L,id2-3,_028,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N16,22,L,Col-0*,x,yes,Mellanie Martin,000001,000001,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20250409,N16,22,L,Col-0*,x,yes,Mellanie Martin,000002,000002,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250409,N16,22,L,Col-0*,_024,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N16,22,L,Col-0*,_025,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N16,22,L,Col-0*,_026,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N16,22,L,Col-0*,_027,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N16,22,L,id2-3,_021,yes,Mellanie Martin,000007,000007,no_need,,,training,training,training
+20250409,N16,22,L,id2-3,_022,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N16,22,L,id2-3,_023,yes,Mellanie Martin,000009,000009,no_need,,,training,training,training
+20250409,N16,22,L,id2-3,_024,yes,Mellanie Martin,000010,000010,no_need,,,training,training,training
+20250409,N16,22,L,id2-3,_025,yes,Mellanie Martin,000011,000011,no_need,,,training,training,training
+20250409,N16,22,L,id2-3,_026,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N32,23,L,Col-0*,x,yes,Mellanie Martin,000001,000001,no_need,2. underdeveloped/germling too small,,ignore,ignore,ignore
+20250409,N32,23,L,Col-0*,_022,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N32,23,L,Col-0*,_023,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N32,23,L,Col-0*,_024,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N32,23,L,Col-0*,_025,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N32,23,L,Col-0*,_026,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N32,23,L,id2-3,_022,yes,Mellanie Martin,000007,000007,no_need,,,training,training,training
+20250409,N32,23,L,id2-3,_023,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N32,23,L,id2-3,x,yes,Mellanie Martin,000009,000009,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250409,N32,23,L,id2-3,x,yes,Mellanie Martin,000010,000010,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N32,23,L,id2-3,x,yes,Mellanie Martin,000011,000011,no_need,3. root grew into the agar,,ignore,ignore,ignore
+20250409,N32,23,L,id2-3,_024,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N64,24,L,Col-0*,_023,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N64,24,L,Col-0*,_024,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N64,24,L,Col-0*,_025,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N64,24,L,Col-0*,_026,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N64,24,L,Col-0*,_027,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N64,24,L,Col-0*,_028,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N64,24,L,id2-3,x,yes,Mellanie Martin,000007,000007,no_need,1. no germination of seedling,,ignore,ignore,ignore
+20250409,N64,24,L,id2-3,_021,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N64,24,L,id2-3,_022,yes,Mellanie Martin,000009,000009,no_need,,,training,training,training
+20250409,N64,24,L,id2-3,_023,yes,Mellanie Martin,000010,000010,no_need,,,training,training,training
+20250409,N64,24,L,id2-3,_024,yes,Mellanie Martin,000011,000011,no_need,,,training,training,training
+20250409,N64,24,L,id2-3,_025,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20250409,N128,25,L,Col-0*,_019,yes,Mellanie Martin,000001,000001,no_need,,,training,training,training
+20250409,N128,25,L,Col-0*,_020,yes,Mellanie Martin,000002,000002,no_need,,,training,training,training
+20250409,N128,25,L,Col-0*,_021,yes,Mellanie Martin,000003,000003,no_need,,,training,training,training
+20250409,N128,25,L,Col-0*,_022,yes,Mellanie Martin,000004,000004,no_need,,,training,training,training
+20250409,N128,25,L,Col-0*,_023,yes,Mellanie Martin,000005,000005,no_need,,,training,training,training
+20250409,N128,25,L,Col-0*,_024,yes,Mellanie Martin,000006,000006,no_need,,,training,training,training
+20250409,N128,25,L,id2-3,_020,yes,Mellanie Martin,000007,000007,no_need,,,training,training,training
+20250409,N128,25,L,id2-3,_021,yes,Mellanie Martin,000008,000008,no_need,,,training,training,training
+20250409,N128,25,L,id2-3,_022,yes,Mellanie Martin,000009,000009,no_need,,,training,training,training
+20250409,N128,25,L,id2-3,_023,yes,Mellanie Martin,000010,000010,no_need,,,training,training,training
+20250409,N128,25,L,id2-3,_024,yes,Mellanie Martin,000011,000011,no_need,,,training,training,training
+20250409,N128,25,L,id2-3,_025,yes,Mellanie Martin,000012,000012,no_need,,,training,training,training
+20260305,N4,1,L,Lu4-2,_001,yes,,000003,000005,stitched,,,testing,testing,testing
+20260305,N4,1,L,Lu4-2,_002,yes,,000004,000007,stitched,,,testing,testing,testing
+20260305,N4,1,L,Lu4-2,_003,yes,,000006,000011,stitched,,,testing,testing,testing
+20260305,N4,1,L,UKID93,_001,yes,,000008,000015,stitched,,,testing,testing,testing
+20260305,N4,1,L,UKID93,_002,yes,,000011,000021,stitched,,,testing,testing,testing
+20260305,N4,1,L,UKID93,_003,yes,,000012,000023,stitched,,,testing,testing,testing
+20260305,N4,1,L,Zu-1,_001,yes,,000016,000031,stitched,,,testing,testing,testing
+20260305,N4,1,L,Zu-1,_002,yes,,000017,000033,stitched,,,testing,testing,testing
+20260305,N4,6,L,Zu-1,_003,yes,,000001,000001,stitched,,,testing,testing,testing
+20260305,N4,6,L,Zu-1,_004,yes,,000002,000003,stitched,,,testing,testing,training
+20260305,N4,6,L,Zu-1,_005,yes,,000004,000007,stitched,,,testing,testing,training
+20260305,N4,6,L,Zu-1,_006,yes,,000005,000009,stitched,,,testing,testing,training
+20260305,N4,6,L,Lu4-2,_004,yes,,000008,000015,stitched,,,testing,testing,training
+20260305,N4,6,L,Lu4-2,_005,yes,,000011,000021,stitched,,,testing,testing,training
+20260305,N4,6,L,UKID93,_004,yes,,000014,000027,stitched,,,testing,testing,training
+20260305,N4,6,L,UKID93,_005,yes,,000015,000029,stitched,,,testing,testing,training
+20260305,N4,6,L,UKID93,_006,yes,,000016,000031,stitched,,,testing,testing,training
+20260305,N4,6,L,UKID93,_007,yes,,000018,000035,stitched,,,testing,testing,training
+20260305,N4,11,L,Zu-1,_007,yes,,000003,000005,stitched,,,testing,testing,training
+20260305,N4,11,L,Zu-1,_008,yes,,000005,000009,stitched,,,testing,testing,training
+20260305,N4,11,L,UKID93,_008,yes,,000011,000021,stitched,,,testing,testing,training
+20260305,N4,11,L,UKID93,_009,yes,,000012,000023,stitched,,,testing,testing,training
+20260305,N4,11,L,Lu4-2,_006,yes,,000014,000027,stitched,,,testing,testing,training
+20260305,N4,11,L,Lu4-2,_007,yes,,000015,000029,stitched,,,testing,testing,training
+20260305,N4,11,L,Lu4-2,_008,yes,,000016,000031,stitched,,,testing,testing,training
+20260305,N4,11,L,Lu4-2,_009,yes,,000018,000035,stitched,,,testing,testing,training
+20260305,N4,16,L,UKID93,_010,yes,,000001,000001,stitched,,,testing,testing,training
+20260305,N4,16,L,Zu-1,_009,yes,,000007,000013,stitched,,,testing,testing,training
+20260305,N4,16,L,Zu-1,_010,yes,,000008,000015,stitched,,,testing,testing,training
+20260305,N4,16,L,Lu4-2,_011,yes,,000013,000025,stitched,,,testing,testing,training
+20260311,N4,1,L,Tscha-1,_001,yes,,000001,000001,stitched,,,testing,testing,testing
+20260311,N4,1,L,Tscha-1,_002,yes,,000002,000003,stitched,,,testing,testing,testing
+20260311,N4,1,L,Tscha-1,_003,yes,,000005,000009,stitched,,,testing,testing,testing
+20260311,N4,1,L,Tscha-1,_004,yes,,000006,000011,stitched,,,testing,testing,training
+20260311,N4,1,L,IP-Cmo-3,_001,yes,,000007,000013,stitched,,,testing,testing,testing
+20260311,N4,1,L,IP-Cmo-3,_002,yes,,000008,000015,stitched,,,testing,testing,testing
+20260311,N4,1,L,IP-Cmo-3,_003,yes,,000009,000017,stitched,,,testing,testing,testing
+20260311,N4,1,L,Kil-0,_001,yes,,000013,000025,stitched,,,testing,testing,testing
+20260311,N4,1,L,Kil-0,_002,yes,,000015,000029,stitched,,,testing,testing,testing
+20260311,N4,1,L,Kil-0,_003,yes,,000016,000031,stitched,,,testing,testing,testing
+20260311,N4,1,L,Kil-0,_004,yes,,000017,000033,stitched,,,testing,testing,training
+20260311,N4,1,L,Kil-0,_005,yes,,000018,000035,stitched,,,testing,testing,training
+20260311,N4,6,L,IP-Cmo-3,_004,yes,,000002,000003,stitched,,,testing,testing,training
+20260311,N4,6,L,IP-Cmo-3,_005,yes,,000005,000009,stitched,,,testing,testing,training
+20260311,N4,6,L,Kil-0,_006,yes,,000007,000013,stitched,,,testing,testing,training
+20260311,N4,6,L,Kil-0,_007,yes,,000008,000015,stitched,,,testing,testing,training
+20260311,N4,6,L,Kil-0,_008,yes,,000009,000017,stitched,,,testing,testing,training
+20260311,N4,6,L,Kil-0,_009,yes,,000010,000019,stitched,,,testing,testing,training
+20260311,N4,6,L,Kil-0,_010,yes,,000011,000021,stitched,,,testing,testing,training
+20260311,N4,6,L,Tscha-1,_005,yes,,000013,000025,stitched,,,testing,testing,training
+20260311,N4,6,L,Tscha-1,_006,yes,,000014,000027,stitched,,,testing,testing,training
+20260311,N4,6,L,Tscha-1,_007,yes,,000015,000029,stitched,,,testing,testing,training
+20260311,N4,6,L,Tscha-1,_008,yes,,000016,000031,stitched,,,testing,testing,training
+20260311,N4,11,L,Tscha-1,_009,yes,,000007,000013,stitched,,,testing,testing,training
+20260311,N4,11,L,Tscha-1,_010,yes,,000008,000015,stitched,,,testing,testing,training
+20260311,N4,11,L,IP-Cmo-3,_006,yes,,000014,000027,stitched,,,testing,testing,training
+20260311,N4,11,L,IP-Cmo-3,_007,yes,,000017,000033,stitched,,,testing,testing,training
+20260311,N4,16,L,IP-Cmo-3,_008,yes,,000014,000027,stitched,,,testing,testing,training
+20260311,N4,16,L,IP-Cmo-3,_009,yes,,000018,000035,stitched,,,testing,testing,training
+20260318,N4,1,L,IP-Cmo-3,_010,yes,,000013,000025,stitched,,,testing,testing,training
+20260402,N4,1,L,Lago-1,_001,yes,,000011,000021,stitched,,,testing,testing,testing
+20260402,N4,1,L,Lago-1,_002,yes,,000012,000023,stitched,,,testing,testing,testing
+20260402,N4,1,L,Dospa-1,_001,yes,,000013,000025,stitched,,,testing,testing,testing
+20260402,N4,1,L,Dospa-1,_002,yes,,000014,000027,stitched,,,testing,testing,testing
+20260402,N4,1,L,Dospa-1,_003,yes,,000015,000029,stitched,,,testing,testing,testing
+20260402,N4,1,L,Dospa-1,_004,yes,,000016,000031,stitched,,,testing,testing,training
+20260402,N4,1,L,Dospa-1,_005,yes,,000018,000035,stitched,,,testing,testing,training
+20260402,N4,6,L,Dospa-1,_006,yes,,000007,000013,stitched,,,testing,testing,training
+20260402,N4,6,L,Dospa-1,_007,yes,,000008,000015,stitched,,,testing,testing,training
+20260402,N4,6,L,Dospa-1,_008,yes,,000009,000017,stitched,,,testing,testing,training
+20260402,N4,6,L,Dospa-1,_009,yes,,000010,000019,stitched,,,testing,testing,training
+20260402,N4,6,L,Dospa-1,_010,yes,,000011,000021,stitched,,,testing,testing,training
+20260402,N4,11,L,Lago-1,_003,yes,,000003,000005,stitched,,,testing,testing,testing
+20260402,N4,16,L,Lago-1,_004,yes,,000015,000029,stitched,,,testing,testing,training
+20260402,N4,21,L,Lago-1,_005,yes,,000007,000013,stitched,,,testing,testing,training
+20260402,N4,21,L,Lago-1,_006,yes,,000008,000015,stitched,,,testing,testing,training
+20260402,N4,21,L,Lago-1,_007,yes,,000010,000019,stitched,,,testing,testing,training
+20260408,N4,1,L,Hod,_001,yes,,000001,000001,stitched,,,testing,testing,testing
+20260408,N4,1,L,Hod,_002,yes,,000002,000003,stitched,,,testing,testing,testing
+20260408,N4,1,L,Hod,_003,yes,,000006,000011,stitched,,,testing,testing,testing
+20260408,N4,1,L,Lago-1,_008,yes,,000008,000015,stitched,,,testing,testing,training
+20260408,N4,1,L,Lago-1,_009,yes,,000009,000017,stitched,,,testing,testing,training
+20260408,N4,1,L,Lago-1,_010,yes,,000010,000019,stitched,,,testing,testing,training
+20260408,N4,6,L,Hod,_004,yes,,000007,000013,stitched,,,testing,testing,training
+20260408,N4,6,L,Hod,_005,yes,,000010,000019,stitched,,,testing,testing,training
+20260408,N4,6,L,Hod,_006,yes,,000011,000021,stitched,,,testing,testing,training
+20260408,N4,6,L,Hod,_007,yes,,000012,000023,stitched,,,testing,testing,training
+20260408,N4,11,L,Hod,_008,yes,,000013,000025,stitched,,,testing,testing,training
+20260408,N4,11,L,Hod,_009,yes,,000015,000029,stitched,,,testing,testing,training
+20260408,N4,11,L,Hod,_010,yes,,000016,000031,stitched,,,testing,testing,training
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,training,,239,272,524
+,,,,,,,,,,,testing,,360,360,108
+,,,,,,,,,,,ignore,,154,121,121

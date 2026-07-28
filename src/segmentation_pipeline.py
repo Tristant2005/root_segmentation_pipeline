@@ -54,25 +54,6 @@ def dilate_mask(mask_to_dilate, dilation_radius):
     return dilated_mask
 
 
-# def has_hole(mask: np.ndarray) -> bool:
-#     mask = mask.astype(bool)
-
-#     # connectivity=1 means 4-connectivity for foreground (standard choice
-#     # for hole-counting on binary images; using 8-connectivity for the
-#     # foreground would treat some background as "hole" differently)
-#     e = euler_number(mask, connectivity=1)
-
-#     # number of connected components in the foreground
-#     n_objects = label(mask, connectivity=1).max()
-
-#     # Euler number = objects - holes  =>  holes = objects - euler_number
-#     n_holes = n_objects - e
-
-#     return n_holes > 0
-
-
-
-
 def fill_small_holes(mask, max_hole_size=205):
     mask = mask.astype(bool)
 
@@ -220,10 +201,6 @@ def segment_hairs(binary_mask, root, min_area=100, max_distance=20,
         max_distance=max_distance,         
         circularity_threshold=circularity_threshold
     )
-
-    # connections = link_nearby_endpoints(hairs_messy)
-    # hairs = apply_connections(hairs_messy, connections, line_thickness=2)
-    # cleaned_hairs = remove_small_blobs(hairs, min_area=min_area)
 
     if verbose:
         # show_image(hairs_messy, title="Hair Messy")
